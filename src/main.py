@@ -188,10 +188,11 @@ if __name__ == '__main__':
     # vis_image, loc_image = find_object.get_image(img_url)
     # print("size: " + str(loc_image.size))
     # find_object.find_labels()
+    find_object.get_training_set()
 
     # similar_style.get_similar_style("img_1.png")
     # similar_style.get_similar_2("")
     # similar_style.postman()
-    similar_style.postman_http()
+    # similar_style.postman_http()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
